@@ -20,7 +20,7 @@ namespace ThreeDee {
         static void Ready() {  
             int fov = 90;
 
-            var plr = new Player(new Vector2(20, -10), 90, fov, 1);
+            var plr = new Player(new Vector2(20, -5), 90, fov, 1);
 
             var testWall0 = new Wall(40, 10, 4, new Vector2(2, 2), new Vector2(10, 10), Color.FromArgb(255, 0, 0));
             var testWall1 = new Wall(40, 10, 4, new Vector2(10, 10), new Vector2(30, 10), Color.FromArgb(0, 255, 0));
